@@ -63,7 +63,7 @@ const rules: KarabinerRules[] = [
     b: {
       t: open("https://registry.terraform.io/"),
       g: open("https://github.com/notifications"),
-      r: open("https://releases.hashicorp.com/terraform-ls"),
+      r: open("https://releases.hashicorp.com/terraform"),
       w: open("https://www.deepl.com/en/write"),
     },
     // o = "Open" applications
@@ -73,11 +73,13 @@ const rules: KarabinerRules[] = [
       v: app("Visual Studio Code"),
       d: app("/Users/daniel.banck/Applications/vscode/Visual Studio Code"),
       c: app("Slack"),
-      a: app("Alacritty"),
+      a: app("Ghostty"),
       z: app("zoom.us"),
       m: app("Obsidian"),
       f: app("Finder"),
       p: app("Spotify"),
+      e: app("Zed Preview"),
+      t: app("Todoist"),
     },
     // w = "Window" via rectangle.app
     w: {
